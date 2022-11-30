@@ -1,0 +1,11 @@
+.contenido {
+    /* border: 1px solid black; */
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+}
+.titulo {
+    padding-left: 2%;
+}

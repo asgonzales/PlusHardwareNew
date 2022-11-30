@@ -1,0 +1,12 @@
+.contsigin {
+    /* border: 1px solid var(--border-color); */
+    border-radius: 10px;
+    margin: 0;
+    padding-bottom: 2%;
+    /* padding: 0 50%; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

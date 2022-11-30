@@ -1,0 +1,14 @@
+.landing {
+ width: 100vw;
+ z-index: -1;
+}
+
+.mainDiv {
+ border: 3px solid transparent;
+ /* background-color: blue; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* padding: 2%; */
+ /* justify-content: center; */
+}

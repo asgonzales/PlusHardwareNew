@@ -1,0 +1,59 @@
+.container-paginate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin: 4rem
+}
+
+.paginate {
+  position: relative;
+  background: #eeeeee;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.paginate li {
+  list-style: none;
+  line-height: 50px;
+  margin: 0 5px;
+}
+
+.paginate li.pageNumber {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.paginate li a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+.paginate li.pageNumber:hover a,
+.paginate li.pageNumber.active a {
+  background: #34495e;
+  color: #eeeeee;
+}
+
+.paginate li:first-child {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.paginate li:last-child {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}

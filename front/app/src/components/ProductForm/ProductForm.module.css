@@ -1,0 +1,247 @@
+.contFormPro {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  width: 50%;
+  padding: 2%;
+  padding-right: 3%;
+  margin: 2%;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.form > div > input {
+  min-width: 80vh;
+  height: 30px;
+  margin: 10px;
+  margin-left: 30px;
+  padding: 1% 2%;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+.form > div > input:hover {
+  border: 1px solid black;
+}
+
+.form label {
+  padding-left: 30px;
+  color: #10182f;
+}
+
+.contFormPro > h1 {
+  color: var(--background-button-color);
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.danger {
+  text-transform: uppercase;
+  color: #d11a2a;
+  padding-left: 30px;
+}
+
+.contentSelect {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.contentSelect select::-ms-expand {
+  display: none;
+}
+
+.contentSelect {
+  max-width: 250px;
+  position: relative;
+}
+
+.contentSelect select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: #7b7b7b;
+  font-size: 1em;
+  color: #999;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.contentSelect select:hover {
+  background: #ffffff;
+}
+
+.contentSelect i {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 13px);
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-left: 4px solid gray;
+  border-bottom: 4px solid gray;
+  transform: rotate(-45deg); /* Giramos el cuadrado */
+  transition: all 0.25s ease;
+}
+
+.contentSelect:hover i {
+  margin-top: 3px;
+}
+
+.preview {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2%;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.preview > div > img {
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  width: 100%;
+}
+
+.buttons {
+  word-break: keep-all;
+}
+
+.buttons button,
+.form input {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.buttonFormPro {
+  background-color: var(--background-button-color);
+  color: white;
+  width: 50%;
+  border-radius: 10px;
+  padding: 2%;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border-color);
+}
+.buttonFormPro:hover {
+  cursor: pointer;
+  width: 100%;
+}
+.buttonFormPro:active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px 1px var(--border-color);
+}
+
+.divCategories {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.titleCategories {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.categoriesLists {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.contentCategories {
+  width: 40%;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentCategories > div {
+  /* border: 1px solid red; */
+  width: 100%;
+  /* height: 20%; */
+  display: flex;
+  align-items: center;
+  /* padding: 0%; */
+}
+.contentCategories > div > input {
+  /* border: 1px solid red; */
+  width: 10%;
+  margin: 2%;
+}
+.contentCategories > div > span {
+  /* border: 1px solid red; */
+  width: 90%;
+  /* margin: 0; */
+}
+.buttonDiv {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.buttonDiv > div {
+  /* border: 1px solid blue; */
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  transition: all 0.2s ease;
+}
+.buttonDiv > div:hover {
+  width: 70%;
+}
+.button {
+  margin: 0;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-button-color);
+  border-radius: 10px;
+  color: white;
+  padding: 4%;
+  width: 50%;
+  margin-top: 2%;
+  transition: all 0.2s ease;
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 1px var(--border-color);
+  width: 70%;
+}
+.button:active {
+  background-color: white;
+  color: black;
+}
+.buttonD {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
